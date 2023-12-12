@@ -14,7 +14,6 @@ spec:
     spec:
       containers:
         - name: myapp
-          image: myapp
-          imagePullPolicy: Never
+          image: umarfchy/myapp
           ports:
             - containerPort: 3000
